@@ -142,6 +142,12 @@ For visual configurability, use the existing medium-complexity token-first theme
 
 Temporary public website hosting is allowed and is separate from public connected test execution. A Vercel, Cloudflare Pages, Netlify, or GitHub Pages preview may expose the static website, but must not expose MeteorTest Local Agent endpoints, Supabase secrets, local machines, devices, or test execution services.
 
+## Pull Request Rules
+
+Use issue and pull request descriptions that explain the concrete user-facing or engineering change, validation commands, and remaining risks.
+
+Place issue-closing keywords such as `Closes #123` at the bottom of the PR description, after the summary and validation sections.
+
 ## Validation Commands
 
 ```bash
